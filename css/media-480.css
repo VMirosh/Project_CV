@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .wrapper .left_side {
+        max-width: 100%;
+    }
+
+    .wrapper .right_side {
+        max-width: 100%;
+    }
+
+   
+
+    .wrapper .right_side .skills .right_skills .right_software {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+}
