@@ -30,9 +30,10 @@ body {
 .wrapper .left_side {
   max-width: 30%;
   box-sizing: border-box;
+  background-image: url('../img/bg_aside.png');
   background-repeat: no-repeat;
   margin: 0 2%;
-  background-color: #bed8ec;
+ 
 }
 
 .wrapper .left_side .applicant {
@@ -50,23 +51,13 @@ body {
   margin: 15% 5%;
 }
 
-/* .wrapper .left_side .applicant .caption {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-
-} */
-
-
-
 .wrapper .left_side .all_info {
   width: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
-}
+ }
 
 .wrapper .left_side .all_info .contact {
   width: 80%;
@@ -122,7 +113,7 @@ body {
 
 .wrapper .left_side .all_info .follow {
   width: 80%;
-  margin: 6% auto;
+  margin: 6% auto 0;
   display: flex;
   flex-direction: column;
 
@@ -174,7 +165,7 @@ body {
 
 .wrapper .left_side .all_info .language {
   width: 80%;
-  margin:  auto;
+  margin:  6% auto;
   display: flex;
   flex-direction: column;
 
@@ -194,11 +185,12 @@ body {
 }
 
 .wrapper .left_side .all_info .language .speaking_skills {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
+  margin: 5% 0;
 
 }
 
@@ -207,6 +199,7 @@ body {
 .wrapper .left_side .all_info .language .speaking_skills .speaking_pl,
 .speaking_ua,
 .speaking_en {
+  
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -217,23 +210,20 @@ body {
 .wrapper .left_side .all_info .language .speaking_skills h2 {
   text-transform: uppercase;
   width: 50%;
-  margin: 3% 0%;
-  font-size: 150%;
+  margin: 3% 0%;  
   color: #424243;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 600;
   line-height: 31px;
   letter-spacing: 0.05em;
+  padding-left: 5%;
 }
 
-.wrapper .left_side .all_info .language .speaking_skills .skills {
-  margin: 1% 2%;
-}
 
 .wrapper .left_side .all_info .hobbies {
   width: 80%;
-  margin: 6% auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
 
@@ -254,14 +244,28 @@ body {
 
 .wrapper .left_side .all_info .hobbies .hobbies_activities {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+   flex-direction: column;
+  align-items: flex-start;
   color: #424243;
   margin-top: 7%;
+
 }
 
 .wrapper .left_side .all_info .hobbies .hobbies_activities div {
-  margin: 5%;
+  
+  text-transform: uppercase;
+  width: 50%;
+  margin: 3% 0%;
+  padding-left: 5%;
+  
+  color: #424243;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+
+
   
 }
 
