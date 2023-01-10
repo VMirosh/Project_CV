@@ -272,7 +272,7 @@ body {
 /*Right content*/
 
 .wrapper .right_side {
-  max-width: 66%;
+  max-width: 70%;
   box-sizing: border-box;
   padding: 5% 1%;
 
@@ -280,34 +280,45 @@ body {
 }
 
 .wrapper .right_side .about_me {
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-.wrapper .right_side .about_me h1 {
+.wrapper .right_side .about_me .head{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+}
+.wrapper .right_side .about_me .head h1 {
   font-family: Montserrat;
   font-size: 48px; 
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.3em;  
   text-align: left;
   text-transform: uppercase;
+  font-style: italic;
   margin: 0;
+  
 }
 
-.wrapper .right_side .about_me h1 span {
-  
-  
+.wrapper .right_side .about_me .head h1 span {   
   font-weight: 800;
- 
+  margin: 10px 0;
+ }
+
+.wrapper .right_side .about_me .head h4 {
+   text-transform: uppercase;
+   font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
-.wrapper .right_side .about_me h4 {
- 
-
-  text-transform: uppercase;
-}
 .wrapper .right_side .about_me .right_title {
   display: flex;
   align-items: center;
@@ -315,7 +326,7 @@ body {
 }
 
 .wrapper .right_side .right_title img {
-  width: 50px;
+  width: 70px;
   height: fit-content;
 }
 
@@ -326,15 +337,18 @@ body {
   margin: 3%;
   color: #424243;
   text-transform: uppercase;
+  font-family: Montserrat;
+  font-size: 32px; 
+  font-weight: 700;
+  letter-spacing: 0.3em;
 }
 .wrapper .right_side .about_me p{
   width: 95%;
-  font-family: 'Lato', sans-serif;
   color:#424243;
 }
 
 .wrapper .right_side .education {
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -347,8 +361,7 @@ body {
 }
 
 .wrapper .right_side .education .right_education {
-  max-width: 95%;
-  
+  max-width: 95%;  
   display: flex;
   flex-direction: column;
 }
@@ -370,7 +383,7 @@ body {
 }
 
 .wrapper .right_side .experience {
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -404,7 +417,7 @@ body {
 }
 
 .wrapper .right_side .skills {
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
